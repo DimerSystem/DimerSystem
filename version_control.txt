@@ -1,0 +1,29 @@
+########  Dimer System ########
+########  version control ########
+
+#### Note ####
+####
+How to use the package? 
+1) Put it into a path which Mathematica would recognise (e.g. ~/Library/Mathematica/Applications).
+2) Change the name to be only DimerSystem.m
+3) Import the package as: <<DimerSystem`
+4) ?DimerSystem will summarise the modules of the package.
+5) ?<NameOfModule> will output the detailed usage of the module.
+####
+What to improve about the package?
+1) For the purpose of research, the code is purely in Mathematica style, namely it involves lots of virtual functions and compact coding (such as & @ # and their combinations). This might not look good for one who loves C++ and Python. If necessary we will make the code much more readable.
+
+#### 0.0 - 2017/02/01
+# Three versions of HiggsingDimerSU. 
+# Fixed the following problem: when using Parallel functions in a package, must firstly distribute definitions into different kernels. 
+
+#### 0.1 - 2017/02/01
+# One version of HiggsingDimerSU. Chopped off the results of Zig-zag paths and consistency  flag.
+# Requires documentation.
+
+#### 0.2 - 2017/02/01
+# Added on the simple usages of each module. 
+# Need to read them again and add the description of the whole package and a demo.
+
+ 
+
